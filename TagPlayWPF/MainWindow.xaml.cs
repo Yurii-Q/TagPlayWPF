@@ -99,6 +99,7 @@ namespace TagPlayWPF
             if(field.Check())
             {
                 DisableAllButton();
+                MessageBox.Show("You Win!", "You Win!");
             }
             e.Handled = true;
         }
